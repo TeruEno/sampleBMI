@@ -36,7 +36,7 @@ class ViewController: UIViewController {
 //          BMIの計算
           bmiResultLabel.text =  "\(wvalue! / (hchange * hchange))"
 //          適正体重の計算
-          weightMatchValue.text = "\((hvalue! * hchange) * 22.0 / 100)"
+          weightMatchValue.text = "\((hvalue! * hchange) * 22.0 / 100)kg"
      }
      
 }
