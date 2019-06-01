@@ -13,7 +13,7 @@ import UIKit
 class TableTableViewController: UITableViewController {
 
 //
-     let list = ["肥満度チェック"]
+     let list = ["肥満度チェック", "基礎代謝率チェック"]
      
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +44,7 @@ class TableTableViewController: UITableViewController {
 //     戻り値によって決まる
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return 2
     }
 
 //    cellForRowAt（超重要）
@@ -108,4 +108,14 @@ class TableTableViewController: UITableViewController {
     }
     */
 
+     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+          print(list[indexPath.row])
+          if list[indexPath.row] == "肥満度チェック" {
+               performSegue(withIdentifier: "toBodyMassIndex", sender: nil)
+          } else {
+               performSegue(withIdentifier: "toHoge", sender: nil)
+          }
+          
+     }
+     
 }

@@ -1,0 +1,21 @@
+PODS:
+  - GradientCircularProgress (3.12.0)
+
+DEPENDENCIES:
+  - GradientCircularProgress (from `https://github.com/keygx/GradientCircularProgress`)
+
+EXTERNAL SOURCES:
+  GradientCircularProgress:
+    :git: https://github.com/keygx/GradientCircularProgress
+
+CHECKOUT OPTIONS:
+  GradientCircularProgress:
+    :commit: 4f10a046715ecb8161416b3cdf5a3804e4a6d6a1
+    :git: https://github.com/keygx/GradientCircularProgress
+
+SPEC CHECKSUMS:
+  GradientCircularProgress: 70a7c37a8acbd967b17504bd888fd8b441ed307b
+
+PODFILE CHECKSUM: 0696cb5fcf2271d20a150b35f643f51ecd46b410
+
+COCOAPODS: 1.7.0
