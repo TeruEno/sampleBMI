@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		04CA447D22953AB3002A7721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA447B22953AB3002A7721 /* Main.storyboard */; };
 		04CA447F22953AB4002A7721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CA447E22953AB4002A7721 /* Assets.xcassets */; };
 		04CA448222953AB4002A7721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA448022953AB4002A7721 /* LaunchScreen.storyboard */; };
+		04D4962122A2604D00ED041D /* MyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4962022A2604D00ED041D /* MyStyle.swift */; };
 		34B5A51158EB4F8F2D1E353E /* Pods_sampleBMI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F88A0D3B75196C4C03E59C /* Pods_sampleBMI.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		04CA447E22953AB4002A7721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CA448122953AB4002A7721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CA448322953AB4002A7721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D4962022A2604D00ED041D /* MyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStyle.swift; sourceTree = "<group>"; };
 		076C60B0F6C3464BB7DB609A /* Pods-sampleBMI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleBMI.release.xcconfig"; path = "Target Support Files/Pods-sampleBMI/Pods-sampleBMI.release.xcconfig"; sourceTree = "<group>"; };
 		599E74D4394118750E9E1B1E /* Pods-sampleBMI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleBMI.debug.xcconfig"; path = "Target Support Files/Pods-sampleBMI/Pods-sampleBMI.debug.xcconfig"; sourceTree = "<group>"; };
 		71F88A0D3B75196C4C03E59C /* Pods_sampleBMI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleBMI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 				04CA447722953AB3002A7721 /* AppDelegate.swift */,
 				04CA447922953AB3002A7721 /* ViewController.swift */,
 				04CA447B22953AB3002A7721 /* Main.storyboard */,
+				04D4962022A2604D00ED041D /* MyStyle.swift */,
 				045B6BF0229BDC94008C8A41 /* metabolism.swift */,
 				0452004D2299020300B23D96 /* ResultViewController.swift */,
 				04CA447E22953AB4002A7721 /* Assets.xcassets */,
@@ -100,7 +103,6 @@
 				599E74D4394118750E9E1B1E /* Pods-sampleBMI.debug.xcconfig */,
 				076C60B0F6C3464BB7DB609A /* Pods-sampleBMI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -220,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D4962122A2604D00ED041D /* MyStyle.swift in Sources */,
 				0452005522990A0500B23D96 /* TableViewController.swift in Sources */,
 				04CA447A22953AB3002A7721 /* ViewController.swift in Sources */,
 				04CA447822953AB3002A7721 /* AppDelegate.swift in Sources */,
